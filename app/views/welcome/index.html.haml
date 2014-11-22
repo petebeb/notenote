@@ -1,1 +1,31 @@
-%h1 This is the welcome placeholder
+#banner
+	.banner_content
+		%h1 NoteNote
+		%p Your Online Notebook. Never forget an idea again!
+		%button= link_to "Sign Up", new_user_registration_path
+
+#testimonial
+	.wrapper
+		%p.quote "The greatest notebook applicatoin, Period."
+		%p.name - Pete Bebber
+
+#callouts
+	.callout_inner
+		.wrapper
+			.callout
+				%h2 Notes
+				%p What a great place to keep all of my notes. The app is available anywhere and I'm the only one with access.
+			.callout
+				%h2 Lists
+				%p What a great place to keep all of my notes. The app is available anywhere and I'm the only one with access.
+			.callout
+				%h2 Reminders
+				%p What a great place to keep all of my notes. The app is available anywhere and I'm the only one with access.
+#bottom_cta
+	.wrapper
+		%h2 Seriously!
+		%p This app is too great to pass up!
+		%button= link_to "Click Me", new_user_registration_path
+
+%footer
+	%p &copy; Pete Bebber
